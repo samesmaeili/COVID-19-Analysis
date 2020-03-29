@@ -16,7 +16,7 @@ def calculatePercentage(subsetRowCount, totalCountOfRows):
 def createGraph(_data, _totalCountOfRows):
     _xAxisGroups = ('0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60+')
     _yLabel = 'Percentage Infected'
-    _title = 'Percentage of People Infected for Each Age Grousp'
+    _title = 'Percentage of People Infected for Each Age Group'
 
     y_pos = np.arange(len(_xAxisGroups))
     plt.bar(y_pos, _data, align='center', alpha=0.5)
